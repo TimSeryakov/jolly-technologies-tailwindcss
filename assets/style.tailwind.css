@@ -1,0 +1,65 @@
+@import "./animate.min.css";
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* Base Styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+footer {
+  @apply font-quicksand;
+}
+
+p {
+  @apply text-j-gray-200;
+  @apply font-sans;
+}
+
+.hero {
+  background-image: url("img/hero-background-mobile.jpg");
+}
+
+@media (min-width: 639px) {
+  .hero {
+    background-image: url("img/hero-background.jpg");
+  }
+}
+
+/* Slideout Footer Slyles */
+main {
+  min-height: 100vh;
+  background: white;
+  position: relative;
+  z-index: 1;
+}
+
+footer {
+  position: sticky;
+  position: -webkit-sticky;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+/* Mobile Menu Button Animation Styles */
+.duration-200 {
+  transition-duration: 200ms;
+}
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 2, 2);
+}
+.ease-out {
+  transition-timing-function: cubic-bezier(0, 0, 0.2, 2);
+}
+
+.transition {
+  transition: transform 250ms ease, color 250ms ease;
+}
+.transform-180 {
+  transform: rotate(-180deg);
+}
