@@ -1,7 +1,7 @@
-# 👋 Page layout for Jolly Phonics
+# 👋 Page layout for Jolly Technologies
 
 - **Task:** InVision to TailwindCSS
-- **Used:** TailwindCSS, Alpine.js, WOW.js/Animate.css, Siema.js
+- **Used:** TailwindCSS, WOW.js/Animate.css
 - **Time:** About 3 Days
 
 ### 🚧 Responsive design, animation on scroll, touch-friendly carousel, optimized for 5 breakpoints:
