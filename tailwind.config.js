@@ -18,6 +18,8 @@ module.exports = {
         "j-gray-200": "#676A7A", // text
         "j-gray-800": "#454752", // hero text
         "j-gray-600": "#444752", // other titles
+        "j-red-400": "#FF7FA3", // text
+        "j-red-200": "#FFF5F8", // bg
       },
       fontFamily: {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],

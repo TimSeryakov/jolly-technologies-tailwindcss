@@ -19,14 +19,10 @@ p {
   @apply font-sans;
 }
 
-.hero {
-  background-image: url("img/hero-background-mobile.jpg");
-}
-
-@media (min-width: 639px) {
-  .hero {
-    background-image: url("img/hero-background.jpg");
-  }
+.hero::before {
+  background-image: url("img/hero.jpg");
+  background-position-x: 25%;
+  background-size: cover;
 }
 
 /* Slideout Footer Slyles */
