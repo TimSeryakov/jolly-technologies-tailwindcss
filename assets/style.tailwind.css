@@ -14,15 +14,14 @@ footer {
   @apply font-quicksand;
 }
 
-p {
-  @apply text-j-gray-200;
-  @apply font-sans;
+.hero {
+  background-image: url("img/hero-mobile.jpg");
 }
 
-.hero::before {
-  background-image: url("img/hero.jpg");
-  background-position-x: 25%;
-  background-size: cover;
+@media (min-width: 639px) {
+  .hero {
+    background-image: url("img/hero.jpg");
+  }
 }
 
 /* Slideout Footer Slyles */

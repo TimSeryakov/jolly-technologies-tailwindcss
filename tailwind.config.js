@@ -27,9 +27,6 @@ module.exports = {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
         quicksand: ["Quicksand", ...defaultTheme.fontFamily.sans],
       },
-      height: {
-        "36rem": "36rem", // height for hero section
-      },
     },
   },
   variants: {},
@@ -42,7 +39,7 @@ module.exports = {
         total: 500, // 900 is the default
       },
       height: {
-        total: 500, // 900 is the default
+        total: 900, // 900 is the default
       },
     }),
     function ({ addComponents }) {
