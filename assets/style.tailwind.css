@@ -24,6 +24,10 @@ footer {
   }
 }
 
+p {
+  @apply text-j-gray-200
+}
+
 /* Slideout Footer Slyles */
 main {
   min-height: 100vh;
@@ -58,3 +62,5 @@ footer {
 .transform-180 {
   transform: rotate(-180deg);
 }
+
+

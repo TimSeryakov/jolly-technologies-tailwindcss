@@ -27,6 +27,9 @@ module.exports = {
         sans: ["Open Sans", ...defaultTheme.fontFamily.sans],
         quicksand: ["Quicksand", ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        "j-sm": "0.75rem",
+      },
     },
   },
   variants: {},
