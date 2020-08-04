@@ -25,10 +25,11 @@ footer {
 }
 
 p {
-  @apply text-j-gray-200
+  @apply text-j-gray-200;
 }
 
 /* Slideout Footer Slyles */
+
 main {
   min-height: 100vh;
   background: white;
